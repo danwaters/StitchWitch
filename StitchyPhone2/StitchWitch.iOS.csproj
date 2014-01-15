@@ -91,14 +91,16 @@
     <Folder Include="Resources\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Data\ReferenceData\Threads.sqlite">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <None Include="Info.plist" />
-    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Data\ThreadRepository.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
     <Compile Include="SQLite.cs" />
-    <Compile Include="SQLiteAsync.cs" />
     <Compile Include="StitchyPhone2ViewController.cs" />
     <Compile Include="StitchyPhone2ViewController.designer.cs">
       <DependentUpon>StitchyPhone2ViewController.cs</DependentUpon>

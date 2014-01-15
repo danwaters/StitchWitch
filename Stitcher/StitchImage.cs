@@ -18,12 +18,7 @@ namespace Stitcher
 
 		public int Width
 		{
-			get {
-				if (ColorGrid.Count <= 0)
-					return 0;
-
-				return ColorGrid [0].Colors.Count;
-			}
+			get { return ColorGrid.Count <= 0 ? 0 : ColorGrid[0].Colors.Count; }
 		}
 
 		public int Height

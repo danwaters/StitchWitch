@@ -1,9 +1,11 @@
 using System;
 using System.Drawing;
+using System.Linq;
 using MonoTouch.Foundation;
 using MonoTouch.UIKit;
 using MonoTouch.CoreGraphics;
 using MonoTouch.CoreImage;
+using StitchWitch.Data;
 
 namespace StitchyPhone2
 {
@@ -82,6 +84,11 @@ namespace StitchyPhone2
 
 		void DoStuff()
 		{
+		    var threads = ThreadRepository.Instance().Threads;
+		    var thread = threads.First();
+		    lblLabel.Text = string.Format("First thread: {0} {1} {2} #{3}", thread.ID, thread.Name, thread.DMC,
+		                                  thread.HexColor);
+		    /*
 			SizeF bitmapSize = new SizeF (imgImage.Image.Size);
 			RectangleF rect = new RectangleF (0, 0, bitmapSize.Width, bitmapSize.Height);
 

@@ -1,0 +1,9 @@
+C:\Users\watersfam\Source\Repos\StitchWitch\StitchyPhone2\obj\iPhoneSimulator\Debug\StitchWitch.iOS.csprojResolveAssemblyReference.cache
+C:\Users\watersfam\Source\Repos\StitchWitch\StitchyPhone2\bin\iPhoneSimulator\Debug\Data\ReferenceData\Threads.sqlite
+C:\Users\watersfam\Source\Repos\StitchWitch\StitchyPhone2\bin\iPhoneSimulator\Debug\StitchyPhone2.exe
+C:\Users\watersfam\Source\Repos\StitchWitch\StitchyPhone2\bin\iPhoneSimulator\Debug\StitchyPhone2.pdb
+C:\Users\watersfam\Source\Repos\StitchWitch\StitchyPhone2\bin\iPhoneSimulator\Debug\Stitcher.dll
+C:\Users\watersfam\Source\Repos\StitchWitch\StitchyPhone2\bin\iPhoneSimulator\Debug\Stitcher.pdb
+C:\Users\watersfam\Source\Repos\StitchWitch\StitchyPhone2\bin\iPhoneSimulator\Debug\Stitcher.dll.mdb
+C:\Users\watersfam\Source\Repos\StitchWitch\StitchyPhone2\obj\iPhoneSimulator\Debug\StitchyPhone2.exe
+C:\Users\watersfam\Source\Repos\StitchWitch\StitchyPhone2\obj\iPhoneSimulator\Debug\StitchyPhone2.pdb
