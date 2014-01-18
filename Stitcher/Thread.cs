@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace Stitcher
 {
@@ -7,9 +8,12 @@ namespace Stitcher
         public int ID { get; set; }
         public string DMC { get; set; }
         public string Name { get; set; }
-        public string HexColor { get; set; }
+        public string HexCode { get; set; }
+        public string InStock { get; set; }
 
-		public Thread ()
+	    public string GlyphCode { get; set; }
+
+	    public Thread ()
 		{
 		}
 	}

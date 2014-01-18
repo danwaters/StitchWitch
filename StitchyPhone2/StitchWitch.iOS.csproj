@@ -107,9 +107,15 @@
     </Compile>
     <Compile Include="ImageHelper.cs" />
     <Compile Include="Chart.cs" />
+    <Compile Include="ThreadSelectionController.cs" />
+    <Compile Include="ThreadSelectionController.designer.cs">
+      <DependentUpon>ThreadSelectionController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThreadTableSource.cs" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="StitchyPhone2ViewController.xib" />
+    <InterfaceDefinition Include="ThreadSelectionController.xib" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.MonoTouch.CSharp.targets" />
   <ItemGroup>

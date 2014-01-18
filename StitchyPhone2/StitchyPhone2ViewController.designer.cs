@@ -21,6 +21,9 @@ namespace StitchyPhone2
 		[Action ("actnDoStuff:")]
 		partial void actnDoStuff (MonoTouch.Foundation.NSObject sender);
 
+		[Action ("actnManageThreads:")]
+		partial void actnManageThreads (MonoTouch.Foundation.NSObject sender);
+
 		[Action ("actnOpenClick:")]
 		partial void actnOpenClick (MonoTouch.Foundation.NSObject sender);
 		

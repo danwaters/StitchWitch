@@ -2,3 +2,9 @@ C:\Users\watersfam\Source\Repos\StitchWitch\Stitcher\obj\Debug\Stitcher.dll
 C:\Users\watersfam\Source\Repos\StitchWitch\Stitcher\bin\Debug\Stitcher.dll
 C:\Users\watersfam\Source\Repos\StitchWitch\Stitcher\bin\Debug\Stitcher.pdb
 C:\Users\watersfam\Source\Repos\StitchWitch\Stitcher\obj\Debug\Stitcher.pdb
+C:\Users\watersfam\Source\Repos\StitchWitch\Stitcher\obj\Debug\StitchWitch.Core.csprojResolveAssemblyReference.cache
+Z:\Xamarin Projects\StitchWitch\Stitcher\bin\Debug\Stitcher.dll
+Z:\Xamarin Projects\StitchWitch\Stitcher\bin\Debug\Stitcher.pdb
+Z:\Xamarin Projects\StitchWitch\Stitcher\obj\Debug\Stitcher.dll
+Z:\Xamarin Projects\StitchWitch\Stitcher\obj\Debug\Stitcher.pdb
+Z:\Xamarin Projects\StitchWitch\Stitcher\obj\Debug\StitchWitch.Core.csprojResolveAssemblyReference.cache
