@@ -1,13 +1,9 @@
 using System;
-using System.Collections.Generic;
-using System.Diagnostics;
 using System.Drawing;
-using System.Linq;
 using System.Runtime.InteropServices;
 using MonoTouch.Foundation;
 using MonoTouch.UIKit;
 using MonoTouch.CoreGraphics;
-using MonoTouch.CoreImage;
 using StitchWitch.Data;
 using Stitcher;
 
@@ -80,16 +76,18 @@ namespace StitchyPhone2
 		{
 			var image = e.Info [UIImagePickerController.OriginalImage] as UIImage;
 		    pickedImage = image;
+		    this.imgImage.Image = image;
+
             imagePicker.DismissViewController (false, null);
 		}
 
 		void HandleFinishedPickingImage (object sender, UIImagePickerImagePickedEventArgs e)
 		{
+            /* not used...
 			this.imgImage.Image = e.Image;
-
+		    pickedImage = e.Image;
 			imagePicker.DismissViewController (false, null);
-
-
+            */
 		}
 
 		partial void actnDoStuff (NSObject sender)
@@ -108,9 +106,8 @@ namespace StitchyPhone2
             {
                 var bitmapData = Marshal.AllocHGlobal(bitmapByteCount);
                 if (bitmapData == IntPtr.Zero)
-                {
                     throw new Exception("Could not allocate memory for the image.");
-                }
+                
 
                 var context = new CGBitmapContext(bitmapData, pixelsWide, pixelsHigh, 8, bitmapBytesPerRow, colorSpace,
                                                   CGImageAlphaInfo.PremultipliedFirst);
@@ -213,8 +210,8 @@ namespace StitchyPhone2
             }
 
 		    stitchedImage.CalculateNeededThreads(ThreadRepository.Instance().Threads);
+
 		    var html = stitchedImage.GenerateHtml();
-            
 		    webView = new UIWebView();
             webView.LoadHtmlString(html, null);
 

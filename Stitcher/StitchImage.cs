@@ -38,14 +38,6 @@ namespace Stitcher
             RequiredThreads = new List<Thread>();
 	        var availableColors = availableThreads.Select(t => new Color(t.HexCode)).ToList();
 
-            foreach (var thread in availableThreads)
-            {
-                Debug.WriteLine("Thread: " + thread.HexCode);
-            }
-            foreach (var color in availableColors)
-            {
-                Debug.WriteLine(color.HexCode);
-            }
             foreach (var row in ColorGrid)
             {
                 foreach (var color in row.Colors)
